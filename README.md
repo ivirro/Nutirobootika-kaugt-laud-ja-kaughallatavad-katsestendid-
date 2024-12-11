@@ -4,42 +4,39 @@ Juhendi raames tuleb Constructi kaugtöölauale projekt ülesseadsitada.
 Constructi keskkonnas saab ligi ka läbi õppegruppi litsentsi eelpool seadistatud katsestendi robotite ROS arvutite, milles saate koodikäitamist  päris riistvaral teostada.
 
 
-In this Summer School task, we will focus on the cooperation of a group of two UAVs (Unmanned Aerial Vehicles) in a 3D environment with obstacles.
-The task is to plan collision-free trajectories of the UAVs so that cameras onboard the UAVs inspect a set of *N* unique inspection points.
-Both UAVs have a predefined starting position and a limit on maximal velocity and acceleration.
-The objective of the task is to minimize the time of inspection while capturing all the inspection points and not colliding the UAVs with the environment or with each other.
-An already working solution is provided as a part of the assignment.
-However, this example solution has poor performance and can be improved significantly.
+Ülesande eesmärk on keskenduda kahe mehitamata õhusõiduki (UAV, Unmanned Aerial Vehicles) koostööle kolmemõõtmelises keskkonnas, kus esineb takistusi.
+Ülesanne seisneb UAV-de kokkupõrkevabade trajektooride planeerimises, et nende pardal olevad kaamerad inspekteeriksid N unikaalset kontrollpunkti.
 
-## Installation
+Mõlemal UAV-l on etteantud algpositsioon ning piirangud maksimaalsele kiirusele ja kiirendusele.
+Ülesande eesmärk on minimeerida inspekteerimiseks kuluvat aega, tagades samal ajal kõigi kontrollpunktide katmise ning vältides UAV-de kokkupõrkeid nii keskkonna kui ka üksteisega.
 
-The Summer School 2024 will use the [MRS UAV System](https://github.com/ctu-mrs/mrs_uav_system) contained in a [Apptainer](https://apptainer.org/) image (previously called Singularity).
-A set of scripts is provided to create a layer of abstraction above the Apptainer system, so the participants only need to know how to call a shell script, e.g.,
+Ülesandega on kaasas juba töötav lahendus. Siiski on selle lahenduse jõudlus madal ning seda saab oluliselt parandada.
+
+## Paigaldus
+
+Kasutakse [MRS UAV System](https://github.com/ctu-mrs/mrs_uav_system)süsteemi, mis on paigutatud [Apptainer](https://apptainer.org/) (varem tuntud kui Singularity) sisse.
+Loodud skriptide kogum, mis lisab abstraktsioonikihi Apptainer süsteemi kohale. Näide shell-skripti kivitamisest:
+
 ```bash
 ./script.sh
 ```
-The following steps will download the main repository, install Apptainer (only on Ubuntu-compatible OS), and download the pre-built Apptainer image.
-No further changes are made to the host operating system.
+Selle lähenemisviisi eesmärk on lihtsustada süsteemi kasutamist, et osalejad saaksid keskenduda rohkem ülesande lahendamisele ja vähem tehnilistele seadistustele.
 
-Compatible platforms:
+Ühilduvus:
 
 * Linux OS,
 * Windows 11 + WSL 2.0 with Linux OS,
 * Windows with virtualized Linux OS,
 * Mac OS X with virtualized Linux OS.
 
-For a non-Ubuntu Linux OS, please, install Apptainer on your own.
-
-Requirements:
+Nõuded:
 
 * [Apptainer](https://apptainer.org/) on Linux OS,
 * approx. 6 GB of disk space.
 
-### Installation procedure
+### Paigalus protseduur
 
-1. If you are a `git` veteran, you would think about `fork`-ing the repository, but because you are a veteran, you will know that a fork of a public repository cannot be made private, and you don't want your team's solutions to be public. So, we recommend to tap the plus sign in the top right corner, and then select the Import repository option. Add `https://github.com/ctu-mrs/summer-school-2024.git` as the link and while completing this form/page, you will find an option to make your new repository private.
-
-2. Clone your new repository to, e.g., `~/git`:
+1. Clone your new repository to, e.g., `~/git`:
 ```bash
 mkdir -p ${HOME}/git
 cd ${HOME}/git && git clone <your new repository's link>
