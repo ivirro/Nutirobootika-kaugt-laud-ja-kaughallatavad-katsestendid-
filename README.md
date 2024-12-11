@@ -36,7 +36,17 @@ Nõuded:
 
 ### Paigalus protseduur
 
-1. Clone your new repository to, e.g., `~/git`:
+1.Apptaineri paigaldus
+```
+sudo apt update
+sudo apt install -y software-properties-common
+sudo add-apt-repository -y ppa:apptainer/ppa
+sudo apt update
+sudo apt install -y apptainer
+apptainer --version
+```
+
+2. Clone kood, e.g., `~/git`:
 ```bash
 mkdir -p ${HOME}/git
 cd ${HOME}/git && git clone <your new repository's link>
