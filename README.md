@@ -68,12 +68,12 @@ cd ${HOME}/git/Nutirobootika-kaugt-laud-ja-kaughallatavad-katsestendid- && ./ins
 
 ## Eesmärk
 
-Kaks UAV-d (punane 🟥  ja sinine 🟦), mis kontrollivad kontrollpunkte (IP-d) võimalikult kiiresti 3D keskkonnas, kus on takistusi. Kaks UAV-d on varustatud MRS tarkvarakogumikuga [MRS control pipeline](https://github.com/ctu-mrs/uav_core), mis võimaldab täpset trajektoori jälgimist. Sinu ülesandeks on määrata IP-d UAV-dele ning luua mitme eesmärgiga rajad, mis külastavad iga IP vaatluspunktide (VP-d) positsioone, kus vastavad IP-d on uuritud pardakaamerate abil, hoides samal ajal takistustest ja UAV-de vahel ohutut kaugust. Lisaks tuleb konverteerida rajad kokkupõrkekindlateks, ajaga parameetritud trajektoorideks, mis arvestavad UAV-de dünaamiliste piirangutega. IP-d on määratud oma positsiooni ja kontrollnurgaga ning need jagunevad kolmeks alagrupiks:
+Kaks UAV-d (punane ja sinine ), mis kontrollivad kontrollpunkte (IP-d) võimalikult kiiresti 3D keskkonnas, kus on takistusi. Kaks UAV-d on varustatud MRS tarkvarakogumikuga [MRS control pipeline](https://github.com/ctu-mrs/uav_core), mis võimaldab täpset trajektoori jälgimist. Sinu ülesandeks on määrata IP-d UAV-dele ning luua mitme eesmärgiga rajad, mis külastavad iga IP vaatluspunktide (VP-d) positsioone, kus vastavad IP-d on uuritud pardakaamerate abil, hoides samal ajal takistustest ja UAV-de vahel ohutut kaugust. Lisaks tuleb konverteerida rajad kokkupõrkekindlateks, ajaga parameetritud trajektoorideks, mis arvestavad UAV-de dünaamiliste piirangutega. IP-d on määratud oma positsiooni ja kontrollnurgaga ning need jagunevad kolmeks alagrupiks:
 
 
-1. 🔴 punased kohad: kontrollitavad ainult 🟥 UAV poolt,
-2. 🔵 sinised kohad: kontrollitavad ainult 🟦 UAV poolt,
-3. 🟣 lillad kohad: kontrollitavad mõlema (🟥 or 🟦)  UAVs poolt.
+1.  punased kohad: kontrollitavad ainult 🟥 UAV poolt,
+2.  sinised kohad: kontrollitavad ainult 🟦 UAV poolt,
+3.  lillad kohad: kontrollitavad mõlema (🟥 or 🟦)  UAVs poolt.
 
 ![TASK](.fig/task.png)
 
