@@ -1,5 +1,8 @@
 # Nutirobootika kaugtöölaud ja kaughallatavad katsestendid
 
+Juhendi raames tuleb Constructi kaugtöölauale projekt ülesseadsitada.
+Constructi keskkonnas saab ligi ka läbi õppegruppi litsentsi eelpool seadistatud katsestendi robotite ROS arvutite, milles saate koodikäitamist  päris riistvaral teostada.
+
 
 In this Summer School task, we will focus on the cooperation of a group of two UAVs (Unmanned Aerial Vehicles) in a 3D environment with obstacles.
 The task is to plan collision-free trajectories of the UAVs so that cameras onboard the UAVs inspect a set of *N* unique inspection points.
