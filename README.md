@@ -106,7 +106,7 @@ Palun uurige koodi ja selle sisemisi kommentaare, et saada parem ülevaade erine
 
 1. Interpoleeri suund näidiste vahel. See on esimene asi, mida lahendada, kui soovite olla tõhus!
 2. Katsetage erinevaid meetodeid, mis on saadaval VPi vahemaa hindamiseks ja kokkupõrkevaba radade planeerimiseks VPid ühendavate radade jaoks [saadaval planeerijad: A*, RRT (vaikimisi), RRT*].
-3. Parandage kontrollitud punktide jaotamist 🟣 kahe UAV vahel (vaikimisi juhuslik).
+3. Parandage kontrollitud punktide jaotamist kahe UAV vahel (vaikimisi juhuslik).
 4. Katsetage erinevaid tee planeerijate parameetreid (nt võrgumudeli lahutusvõime või proovivõtukiirus) ja hinnake nende mõju lahenduse kvaliteedile.
 5. Suurendage valitud tee planeerija jõudlust (nt tee sirgestamise või teavitatud RRT rakendamise kaudu).
 6. Kaaluge lennuaega tee pikkuse asemel, kui otsite optimaalset asukohtade järjekorda TSP-s.
