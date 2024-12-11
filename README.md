@@ -4,6 +4,9 @@ Juhendi raames tuleb Constructi kaugtöölauale projekt ülesseadsitada.
 Constructi keskkonnas saab ligi ka läbi õppegruppi litsentsi eelpool seadistatud katsestendi robotite ROS arvutite, milles saate koodikäitamist  päris riistvaral teostada.
 
 
+Visuaalseks ja väljakutsuvaks näidiseks on alljärgnev ülesanne:
+Koodi aknas olevat kopeerida https://www.theconstruct.ai/ keskonda oma kasutaja rosjecti. Seadsitada rosject üles Ubuntu koos Noetic ROS väljalaskega.
+
 Ülesande eesmärk on keskenduda kahe mehitamata õhusõiduki (UAV, Unmanned Aerial Vehicles) koostööle kolmemõõtmelises keskkonnas, kus esineb takistusi.
 Ülesanne seisneb UAV-de kokkupõrkevabade trajektooride planeerimises, et nende pardal olevad kaamerad inspekteeriksid N unikaalset kontrollpunkti.
 
@@ -24,15 +27,15 @@ Selle lähenemisviisi eesmärk on lihtsustada süsteemi kasutamist, et osalejad 
 
 Ühilduvus:
 
-* Linux OS,
-* Windows 11 + WSL 2.0 with Linux OS,
-* Windows with virtualized Linux OS,
-* Mac OS X with virtualized Linux OS.
+Linuxi operatsioonisüsteem,
+Windows 11 + WSL 2.0 koos Linuxi operatsioonisüsteemiga,
+Windows, millel on virtuaalne Linuxi operatsioonisüsteem,
+Mac OS X koos virtuaalse Linuxi operatsioonisüsteemiga
 
 Nõuded:
 
-* [Apptainer](https://apptainer.org/) on Linux OS,
-* approx. 6 GB of disk space.
+* [Apptainer](https://apptainer.org/)  Linux OS,
+* umbes 6 GB vaba ketta ruumi.
 
 ### Paigalus protseduur
 
