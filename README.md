@@ -56,8 +56,6 @@ Näide algupärase githubi kaustaga
 mkdir -p ${HOME}/git
 cd ${HOME}/git && git clone https://github.com/ivirro/Nutirobootika-kaugt-laud-ja-kaughallatavad-katsestendid-.git
 ```
-mkdir -p ${HOME}/git
-cd ${HOME}/git && git clone https://github.com/ivirro/summer-school-2024.git
 
 3. Run the installation script that will install dependencies, download the MRS Apptainer image containing [MRS UAV System](https://github.com/ctu-mrs/mrs_uav_system), and compile the workspace:
 ```bash
