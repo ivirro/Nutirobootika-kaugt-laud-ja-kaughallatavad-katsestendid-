@@ -110,7 +110,7 @@ Palun uurige koodi ja selle sisemisi kommentaare, et saada parem ülevaade erine
 4. Katsetage erinevaid tee planeerijate parameetreid (nt võrgumudeli lahutusvõime või proovivõtukiirus) ja hinnake nende mõju lahenduse kvaliteedile.
 5. Suurendage valitud tee planeerija jõudlust (nt tee sirgestamise või teavitatud RRT rakendamise kaudu).
 6. Kaaluge lennuaega tee pikkuse asemel, kui otsite optimaalset asukohtade järjekorda TSP-s.
-7. Rakendage tee silumist ja pidevat trajektoori proovivõtmist (ilma peatusteta vahepunktides), et kiirendada lendu. Koodis oleme valmistanud `toppra` teegi tee parametriseerimise arvutamiseks [2]. Vaadake [dokumentatsiooni](https://hungpham2511.github.io/toppra/) ja proovige seda kasutada.
+7. Rakendage tee silumist ja pidevat trajektoori proovivõtmist (ilma peatusteta vahepunktides), et kiirendada lendu. Koodis oleme valmistanud `toppra` teegi tee parametriseerimise arvutamiseks. Vaadake [dokumentatsiooni](https://hungpham2511.github.io/toppra/) ja proovige seda kasutada.
 8. Töötle aja-parametriseeritud trajektoore, et lahendada UAV-devahelisi kokkupõrkeid. Alustage kokkupõrke vältimise rakendamisest, näiteks viivitage trajektoori algusega, kuni kokkupõrkeid ei esine. Näpunäide: proovige meetodeid, mis on saadaval konfiguratsioonifailis (vt allpool).
 9. Jaotage IP-d tõhusalt ümber, et vältida kokkupõrkeid ja saavutada madalam kontrollimise aeg.
  
