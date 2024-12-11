@@ -13,7 +13,7 @@ Koodi aknas olevat kopeerida https://www.theconstruct.ai/ keskonda oma kasutaja 
 Mõlemal UAV-l on etteantud algpositsioon ning piirangud maksimaalsele kiirusele ja kiirendusele.
 Ülesande eesmärk on minimeerida inspekteerimiseks kuluvat aega, tagades samal ajal kõigi kontrollpunktide katmise ning vältides UAV-de kokkupõrkeid nii keskkonna kui ka üksteisega.
 
-Ülesandega on kaasas juba töötav lahendus. Siiski on selle lahenduse jõudlus madal ning seda saab oluliselt parandada.
+Ülesandega on kaasas juba töötav lahendus. Siiski on selle lahenduse jõudlus madal ning seda saab oluliselt täiendada.
 
 ## Paigaldus
 
