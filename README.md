@@ -1,4 +1,5 @@
-# MRS Summer School 2024: multi-robot inspection and monitoring
+# Nutirobootika kaugtöölaud ja kaughallatavad katsestendid
+
 
 In this Summer School task, we will focus on the cooperation of a group of two UAVs (Unmanned Aerial Vehicles) in a 3D environment with obstacles.
 The task is to plan collision-free trajectories of the UAVs so that cameras onboard the UAVs inspect a set of *N* unique inspection points.
@@ -313,30 +314,4 @@ If there is an update in the repository, you can pull it to your local machine u
 ```
 cd ${HOME}/git/summer-school-2024 && git pull
 ```
-
-**Google**
-
-Before asking for help, try to come up with the answer on your own or with the assistance of a Google search or ChatGPT.
-Sometimes just writing the question down helps you to understand the problem.
-
-**Contacts**
-
-If you find a bug in the task, you need assistance, or you have any other questions, please contact by email one of (or all of):
-
-* Ondřej Procházka `prochon4@fel.cvut.cz`
-* Matej Novosad `novosma2@fel.cvut.cz`
-
-We will try to help you as soon as possible.
-
-## Disclaimer
-
-During the week of the 2024 MRS Summer School, the organizers reserve the right to:
-
-* to do fixes: to update the task in case of finding severe bugs in the code,
-* to maintain fairness: to change the problems or the constraints for the challenges,
-* to preserve safety: to discard provided trajectories for the real-world challenge if the flight would be unsafe in any possible way.
-
-## References
-
-* [1]  Baca, T., Petrlik, M., Vrba, M., Spurny, V., Penicka, R., Hert, D., and Saska, M., [The MRS UAV System: Pushing the Frontiers of Reproducible Research, Real-world Deployment, and Education with Autonomous Unmanned Aerial Vehicles](https://arxiv.org/pdf/2008.08050), _Journal of Intelligent & Robotic Systems 102(26):1–28, May 2021_, GitHub: https://github.com/ctu-mrs/mrs_uav_system.
 * [2]  H. Pham, Q. C. Pham, [A New Approach to Time-Optimal Path Parameterization Based on Reachability Analysis](https://www.researchgate.net/publication/318671280_A_New_Approach_to_Time-Optimal_Path_Parameterization_Based_on_Reachability_Analysis), [Documentation](https://hungpham2511.github.io/toppra/index.html)
